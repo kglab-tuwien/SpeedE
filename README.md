@@ -9,10 +9,7 @@ The repository includes the following:
 
 # Requirements
 
-* Python >= 3.9
-* PyKEEN 1.7.0
-* Pytorch 1.10.2
-* Tensorboard 2.8.0
+All required libraries and their specific versions are listed in the requirements.txt file.
 
 # Installation
 
