@@ -13,9 +13,22 @@ All required libraries and their specific versions are listed in the requirement
 
 # Installation
 
-We have provided an `environment.yml` file that can be used to create a conda environment with all required
-dependencies. Run `conda env create -f environment.yml` to create the conda environment `Env_SpeedE`.
-Afterward, use `conda activate Env_SpeedE` to activate the environment before rerunning our experiments.
+**Clone the repository**
+
+`git clone <repository-url>`\
+\
+**Navigate to the project root and create a virtual environment**
+
+`cd <repo-folder>`
+
+`python3 -m venv venv`
+
+**Activate the virtual environment**
+
+On macOS/Linux:
+`source venv/bin/activate`
+
+On Windows (PowerShell): `.\venv\Scripts\Activate.ps1`
 
 # Running SpeedE
 
