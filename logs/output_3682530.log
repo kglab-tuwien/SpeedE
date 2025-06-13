@@ -1,0 +1,32 @@
+CUDA_VISIBLE_DEVICES=0
+Mon Jun  9 13:54:08 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.86.10              Driver Version: 570.86.10      CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA L40S                    Off |   00000000:17:00.0 Off |                    0 |
+| N/A   29C    P8             32W /  350W |       1MiB /  46068MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Traceback (most recent call last):
+  File "/home/guests/apesare/SpeedE/run_experiments.py", line 169, in <module>
+    main(**dict(arg.split('=') for arg in sys.argv[1:]))  # kwargs
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/guests/apesare/SpeedE/run_experiments.py", line 116, in main
+    config_path, config, sub_dir, seeds, train, test = parse_kwargs(**kwargs)
+                                                       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/guests/apesare/SpeedE/run_experiments.py", line 20, in parse_kwargs
+    with open(config_path, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/guests/apesare/SpeedE/Best_Configurations/SpeedE'

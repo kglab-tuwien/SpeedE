@@ -1,0 +1,512 @@
+CUDA_VISIBLE_DEVICES=0
+Mon Jun  9 14:04:43 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.86.10              Driver Version: 570.86.10      CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA L40S                    Off |   00000000:17:00.0 Off |                    0 |
+| N/A   28C    P8             32W /  350W |       1MiB /  46068MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+INFO:pykeen.training.training_loop:=> no checkpoint found at 'Benchmarking/checkpoints/run_test_seed_1/checkpoint.pt'. Creating a new file.
+INFO:pykeen.triples.triples_factory:Creating inverse triples.
+Training epochs on cuda:0:   0%|          | 0/1000 [00:00<?, ?epoch/s]INFO:pykeen.triples.triples_factory:Creating inverse triples.
+
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   0%|          | 1/695 [00:00<01:15,  9.23batch/s][A
+Training batches on cuda:0:   2%|▏         | 12/695 [00:00<00:10, 66.08batch/s][A
+Training batches on cuda:0:   5%|▌         | 35/695 [00:00<00:04, 137.64batch/s][A
+Training batches on cuda:0:   8%|▊         | 58/695 [00:00<00:03, 172.12batch/s][A
+Training batches on cuda:0:  12%|█▏        | 81/695 [00:00<00:03, 191.38batch/s][A
+Training batches on cuda:0:  15%|█▍        | 104/695 [00:00<00:02, 201.96batch/s][A
+Training batches on cuda:0:  18%|█▊        | 127/695 [00:00<00:02, 209.83batch/s][A
+Training batches on cuda:0:  22%|██▏       | 150/695 [00:00<00:02, 215.05batch/s][A
+Training batches on cuda:0:  25%|██▍       | 173/695 [00:00<00:02, 218.55batch/s][A
+Training batches on cuda:0:  28%|██▊       | 196/695 [00:01<00:02, 221.00batch/s][A
+Training batches on cuda:0:  32%|███▏      | 219/695 [00:01<00:02, 222.56batch/s][A
+Training batches on cuda:0:  35%|███▍      | 242/695 [00:01<00:02, 223.75batch/s][A
+Training batches on cuda:0:  38%|███▊      | 265/695 [00:01<00:01, 224.49batch/s][A
+Training batches on cuda:0:  41%|████▏     | 288/695 [00:01<00:01, 225.10batch/s][A
+Training batches on cuda:0:  45%|████▍     | 311/695 [00:01<00:01, 225.50batch/s][A
+Training batches on cuda:0:  48%|████▊     | 334/695 [00:01<00:01, 225.80batch/s][A
+Training batches on cuda:0:  51%|█████▏    | 357/695 [00:01<00:01, 225.86batch/s][A
+Training batches on cuda:0:  55%|█████▍    | 380/695 [00:01<00:01, 225.02batch/s][A
+Training batches on cuda:0:  58%|█████▊    | 403/695 [00:01<00:01, 210.52batch/s][A
+Training batches on cuda:0:  61%|██████▏   | 427/695 [00:02<00:01, 217.93batch/s][A
+Training batches on cuda:0:  65%|██████▍   | 451/695 [00:02<00:01, 223.51batch/s][A
+Training batches on cuda:0:  68%|██████▊   | 475/695 [00:02<00:00, 227.51batch/s][A
+Training batches on cuda:0:  72%|███████▏  | 498/695 [00:02<00:00, 214.36batch/s][A
+Training batches on cuda:0:  75%|███████▌  | 522/695 [00:02<00:00, 220.94batch/s][A
+Training batches on cuda:0:  79%|███████▊  | 546/695 [00:02<00:00, 225.76batch/s][A
+Training batches on cuda:0:  82%|████████▏ | 569/695 [00:02<00:00, 212.80batch/s][A
+Training batches on cuda:0:  85%|████████▌ | 591/695 [00:02<00:00, 208.81batch/s][A
+Training batches on cuda:0:  88%|████████▊ | 614/695 [00:02<00:00, 214.17batch/s][A
+Training batches on cuda:0:  92%|█████████▏| 637/695 [00:03<00:00, 218.11batch/s][A
+Training batches on cuda:0:  95%|█████████▍| 660/695 [00:03<00:00, 220.88batch/s][A
+Training batches on cuda:0:  98%|█████████▊| 683/695 [00:03<00:00, 222.92batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   0%|          | 0/1000 [00:03<?, ?epoch/s, loss=1.62e+3, prev_loss=nan]Training epochs on cuda:0:   0%|          | 1/1000 [00:03<57:14,  3.44s/epoch, loss=1.62e+3, prev_loss=nan]
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   3%|▎         | 21/695 [00:00<00:03, 208.50batch/s][A
+Training batches on cuda:0:   6%|▋         | 44/695 [00:00<00:02, 219.66batch/s][A
+Training batches on cuda:0:  10%|▉         | 67/695 [00:00<00:02, 223.37batch/s][A
+Training batches on cuda:0:  13%|█▎        | 90/695 [00:00<00:02, 225.20batch/s][A
+Training batches on cuda:0:  16%|█▋        | 113/695 [00:00<00:02, 226.23batch/s][A
+Training batches on cuda:0:  20%|█▉        | 136/695 [00:00<00:02, 225.72batch/s][A
+Training batches on cuda:0:  23%|██▎       | 159/695 [00:00<00:02, 226.33batch/s][A
+Training batches on cuda:0:  26%|██▌       | 182/695 [00:00<00:02, 226.79batch/s][A
+Training batches on cuda:0:  29%|██▉       | 205/695 [00:00<00:02, 227.12batch/s][A
+Training batches on cuda:0:  33%|███▎      | 228/695 [00:01<00:02, 227.34batch/s][A
+Training batches on cuda:0:  36%|███▌      | 251/695 [00:01<00:01, 227.53batch/s][A
+Training batches on cuda:0:  39%|███▉      | 274/695 [00:01<00:01, 227.71batch/s][A
+Training batches on cuda:0:  43%|████▎     | 297/695 [00:01<00:01, 227.75batch/s][A
+Training batches on cuda:0:  46%|████▌     | 320/695 [00:01<00:01, 227.67batch/s][A
+Training batches on cuda:0:  49%|████▉     | 343/695 [00:01<00:01, 227.70batch/s][A
+Training batches on cuda:0:  53%|█████▎    | 366/695 [00:01<00:01, 227.77batch/s][A
+Training batches on cuda:0:  56%|█████▌    | 389/695 [00:01<00:01, 227.77batch/s][A
+Training batches on cuda:0:  59%|█████▉    | 412/695 [00:01<00:01, 227.82batch/s][A
+Training batches on cuda:0:  63%|██████▎   | 435/695 [00:01<00:01, 227.84batch/s][A
+Training batches on cuda:0:  66%|██████▌   | 458/695 [00:02<00:01, 227.84batch/s][A
+Training batches on cuda:0:  69%|██████▉   | 481/695 [00:02<00:00, 227.89batch/s][A
+Training batches on cuda:0:  73%|███████▎  | 504/695 [00:02<00:00, 227.87batch/s][A
+Training batches on cuda:0:  76%|███████▌  | 527/695 [00:02<00:00, 227.80batch/s][A
+Training batches on cuda:0:  79%|███████▉  | 550/695 [00:02<00:00, 227.70batch/s][A
+Training batches on cuda:0:  82%|████████▏ | 573/695 [00:02<00:00, 227.59batch/s][A
+Training batches on cuda:0:  86%|████████▌ | 596/695 [00:02<00:00, 227.57batch/s][A
+Training batches on cuda:0:  89%|████████▉ | 619/695 [00:02<00:00, 227.57batch/s][A
+Training batches on cuda:0:  92%|█████████▏| 642/695 [00:02<00:00, 227.59batch/s][A
+Training batches on cuda:0:  96%|█████████▌| 665/695 [00:02<00:00, 227.57batch/s][A
+Training batches on cuda:0:  99%|█████████▉| 688/695 [00:03<00:00, 227.60batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   0%|          | 1/1000 [00:06<57:14,  3.44s/epoch, loss=739, prev_loss=1.62e+3]Training epochs on cuda:0:   0%|          | 2/1000 [00:06<54:55,  3.30s/epoch, loss=739, prev_loss=1.62e+3]
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   3%|▎         | 21/695 [00:00<00:03, 208.69batch/s][A
+Training batches on cuda:0:   6%|▋         | 44/695 [00:00<00:02, 219.53batch/s][A
+Training batches on cuda:0:  10%|▉         | 67/695 [00:00<00:02, 223.08batch/s][A
+Training batches on cuda:0:  13%|█▎        | 90/695 [00:00<00:02, 224.70batch/s][A
+Training batches on cuda:0:  16%|█▋        | 113/695 [00:00<00:02, 225.70batch/s][A
+Training batches on cuda:0:  20%|█▉        | 136/695 [00:00<00:02, 225.25batch/s][A
+Training batches on cuda:0:  23%|██▎       | 159/695 [00:00<00:02, 225.93batch/s][A
+Training batches on cuda:0:  26%|██▌       | 182/695 [00:00<00:02, 226.61batch/s][A
+Training batches on cuda:0:  29%|██▉       | 205/695 [00:00<00:02, 226.96batch/s][A
+Training batches on cuda:0:  33%|███▎      | 228/695 [00:01<00:02, 227.37batch/s][A
+Training batches on cuda:0:  36%|███▌      | 251/695 [00:01<00:01, 227.63batch/s][A
+Training batches on cuda:0:  39%|███▉      | 274/695 [00:01<00:01, 227.69batch/s][A
+Training batches on cuda:0:  43%|████▎     | 297/695 [00:01<00:01, 227.81batch/s][A
+Training batches on cuda:0:  46%|████▌     | 320/695 [00:01<00:01, 227.84batch/s][A
+Training batches on cuda:0:  49%|████▉     | 343/695 [00:01<00:01, 227.84batch/s][A
+Training batches on cuda:0:  53%|█████▎    | 366/695 [00:01<00:01, 227.81batch/s][A
+Training batches on cuda:0:  56%|█████▌    | 389/695 [00:01<00:01, 227.94batch/s][A
+Training batches on cuda:0:  59%|█████▉    | 412/695 [00:01<00:01, 227.90batch/s][A
+Training batches on cuda:0:  63%|██████▎   | 435/695 [00:01<00:01, 227.93batch/s][A
+Training batches on cuda:0:  66%|██████▌   | 458/695 [00:02<00:01, 227.99batch/s][A
+Training batches on cuda:0:  69%|██████▉   | 481/695 [00:02<00:00, 227.97batch/s][A
+Training batches on cuda:0:  73%|███████▎  | 504/695 [00:02<00:00, 227.91batch/s][A
+Training batches on cuda:0:  76%|███████▌  | 527/695 [00:02<00:00, 227.87batch/s][A
+Training batches on cuda:0:  79%|███████▉  | 550/695 [00:02<00:00, 227.88batch/s][A
+Training batches on cuda:0:  82%|████████▏ | 573/695 [00:02<00:00, 227.85batch/s][A
+Training batches on cuda:0:  86%|████████▌ | 596/695 [00:02<00:00, 227.86batch/s][A
+Training batches on cuda:0:  89%|████████▉ | 619/695 [00:02<00:00, 227.84batch/s][A
+Training batches on cuda:0:  92%|█████████▏| 642/695 [00:02<00:00, 227.88batch/s][A
+Training batches on cuda:0:  96%|█████████▌| 665/695 [00:02<00:00, 227.73batch/s][A
+Training batches on cuda:0:  99%|█████████▉| 688/695 [00:03<00:00, 227.73batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   0%|          | 2/1000 [00:09<54:55,  3.30s/epoch, loss=520, prev_loss=739]    Training epochs on cuda:0:   0%|          | 3/1000 [00:09<54:08,  3.26s/epoch, loss=520, prev_loss=739]
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   3%|▎         | 21/695 [00:00<00:03, 208.95batch/s][A
+Training batches on cuda:0:   6%|▋         | 44/695 [00:00<00:02, 219.22batch/s][A
+Training batches on cuda:0:  10%|▉         | 67/695 [00:00<00:02, 222.84batch/s][A
+Training batches on cuda:0:  13%|█▎        | 90/695 [00:00<00:02, 224.63batch/s][A
+Training batches on cuda:0:  16%|█▋        | 113/695 [00:00<00:02, 225.49batch/s][A
+Training batches on cuda:0:  20%|█▉        | 136/695 [00:00<00:02, 223.70batch/s][A
+Training batches on cuda:0:  23%|██▎       | 160/695 [00:00<00:02, 227.83batch/s][A
+Training batches on cuda:0:  26%|██▋       | 184/695 [00:00<00:02, 230.54batch/s][A
+Training batches on cuda:0:  30%|██▉       | 208/695 [00:00<00:02, 232.43batch/s][A
+Training batches on cuda:0:  33%|███▎      | 232/695 [00:01<00:01, 233.50batch/s][A
+Training batches on cuda:0:  37%|███▋      | 256/695 [00:01<00:01, 234.36batch/s][A
+Training batches on cuda:0:  40%|████      | 280/695 [00:01<00:01, 235.04batch/s][A
+Training batches on cuda:0:  44%|████▎     | 304/695 [00:01<00:01, 235.53batch/s][A
+Training batches on cuda:0:  47%|████▋     | 328/695 [00:01<00:01, 235.87batch/s][A
+Training batches on cuda:0:  51%|█████     | 352/695 [00:01<00:01, 236.13batch/s][A
+Training batches on cuda:0:  54%|█████▍    | 376/695 [00:01<00:01, 236.22batch/s][A
+Training batches on cuda:0:  58%|█████▊    | 400/695 [00:01<00:01, 236.39batch/s][A
+Training batches on cuda:0:  61%|██████    | 424/695 [00:01<00:01, 236.41batch/s][A
+Training batches on cuda:0:  64%|██████▍   | 448/695 [00:01<00:01, 236.27batch/s][A
+Training batches on cuda:0:  68%|██████▊   | 472/695 [00:02<00:00, 236.38batch/s][A
+Training batches on cuda:0:  71%|███████▏  | 496/695 [00:02<00:00, 227.19batch/s][A
+Training batches on cuda:0:  75%|███████▍  | 520/695 [00:02<00:00, 229.97batch/s][A
+Training batches on cuda:0:  78%|███████▊  | 544/695 [00:02<00:00, 232.15batch/s][A
+Training batches on cuda:0:  82%|████████▏ | 568/695 [00:02<00:00, 233.67batch/s][A
+Training batches on cuda:0:  85%|████████▌ | 592/695 [00:02<00:00, 234.85batch/s][A
+Training batches on cuda:0:  89%|████████▊ | 616/695 [00:02<00:00, 235.66batch/s][A
+Training batches on cuda:0:  92%|█████████▏| 640/695 [00:02<00:00, 236.23batch/s][A
+Training batches on cuda:0:  96%|█████████▌| 664/695 [00:02<00:00, 236.72batch/s][A
+Training batches on cuda:0:  99%|█████████▉| 688/695 [00:02<00:00, 236.74batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   0%|          | 3/1000 [00:12<54:08,  3.26s/epoch, loss=417, prev_loss=520]Training epochs on cuda:0:   0%|          | 4/1000 [00:12<53:03,  3.20s/epoch, loss=417, prev_loss=520]
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   3%|▎         | 23/695 [00:00<00:03, 220.81batch/s][A
+Training batches on cuda:0:   7%|▋         | 47/695 [00:00<00:02, 230.29batch/s][A
+Training batches on cuda:0:  10%|█         | 71/695 [00:00<00:02, 233.31batch/s][A
+Training batches on cuda:0:  14%|█▎        | 95/695 [00:00<00:02, 234.62batch/s][A
+Training batches on cuda:0:  17%|█▋        | 119/695 [00:00<00:02, 235.49batch/s][A
+Training batches on cuda:0:  21%|██        | 143/695 [00:00<00:02, 226.64batch/s][A
+Training batches on cuda:0:  24%|██▍       | 166/695 [00:00<00:02, 226.84batch/s][A
+Training batches on cuda:0:  27%|██▋       | 189/695 [00:00<00:02, 226.88batch/s][A
+Training batches on cuda:0:  31%|███       | 212/695 [00:00<00:02, 227.05batch/s][A
+Training batches on cuda:0:  34%|███▍      | 235/695 [00:01<00:02, 227.20batch/s][A
+Training batches on cuda:0:  37%|███▋      | 258/695 [00:01<00:01, 227.27batch/s][A
+Training batches on cuda:0:  40%|████      | 281/695 [00:01<00:01, 227.40batch/s][A
+Training batches on cuda:0:  44%|████▎     | 304/695 [00:01<00:01, 227.37batch/s][A
+Training batches on cuda:0:  47%|████▋     | 327/695 [00:01<00:01, 227.34batch/s][A
+Training batches on cuda:0:  50%|█████     | 350/695 [00:01<00:01, 227.33batch/s][A
+Training batches on cuda:0:  54%|█████▎    | 373/695 [00:01<00:01, 226.90batch/s][A
+Training batches on cuda:0:  57%|█████▋    | 396/695 [00:01<00:01, 227.01batch/s][A
+Training batches on cuda:0:  60%|██████    | 420/695 [00:01<00:01, 230.00batch/s][A
+Training batches on cuda:0:  64%|██████▍   | 444/695 [00:01<00:01, 232.34batch/s][A
+Training batches on cuda:0:  67%|██████▋   | 468/695 [00:02<00:00, 233.99batch/s][A
+Training batches on cuda:0:  71%|███████   | 492/695 [00:02<00:00, 235.22batch/s][A
+Training batches on cuda:0:  74%|███████▍  | 516/695 [00:02<00:00, 236.01batch/s][A
+Training batches on cuda:0:  78%|███████▊  | 540/695 [00:02<00:00, 227.28batch/s][A
+Training batches on cuda:0:  81%|████████  | 564/695 [00:02<00:00, 230.05batch/s][A
+Training batches on cuda:0:  85%|████████▍ | 588/695 [00:02<00:00, 232.14batch/s][A
+Training batches on cuda:0:  88%|████████▊ | 612/695 [00:02<00:00, 233.68batch/s][A
+Training batches on cuda:0:  92%|█████████▏| 636/695 [00:02<00:00, 234.67batch/s][A
+Training batches on cuda:0:  95%|█████████▍| 660/695 [00:02<00:00, 235.16batch/s][A
+Training batches on cuda:0:  98%|█████████▊| 684/695 [00:02<00:00, 235.66batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   0%|          | 4/1000 [00:16<53:03,  3.20s/epoch, loss=347, prev_loss=417]Training epochs on cuda:0:   0%|          | 5/1000 [00:16<52:32,  3.17s/epoch, loss=347, prev_loss=417]
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   3%|▎         | 23/695 [00:00<00:03, 222.05batch/s][A
+Training batches on cuda:0:   7%|▋         | 47/695 [00:00<00:02, 230.89batch/s][A
+Training batches on cuda:0:  10%|█         | 71/695 [00:00<00:02, 233.77batch/s][A
+Training batches on cuda:0:  14%|█▎        | 95/695 [00:00<00:02, 235.17batch/s][A
+Training batches on cuda:0:  17%|█▋        | 119/695 [00:00<00:02, 235.95batch/s][A
+Training batches on cuda:0:  21%|██        | 143/695 [00:00<00:02, 235.11batch/s][A
+Training batches on cuda:0:  24%|██▍       | 167/695 [00:00<00:02, 225.36batch/s][A
+Training batches on cuda:0:  27%|██▋       | 191/695 [00:00<00:02, 229.12batch/s][A
+Training batches on cuda:0:  31%|███       | 215/695 [00:00<00:02, 231.73batch/s][A
+Training batches on cuda:0:  34%|███▍      | 239/695 [00:01<00:01, 233.59batch/s][A
+Training batches on cuda:0:  38%|███▊      | 263/695 [00:01<00:01, 234.78batch/s][A
+Training batches on cuda:0:  41%|████▏     | 287/695 [00:01<00:01, 218.53batch/s][A
+Training batches on cuda:0:  45%|████▍     | 311/695 [00:01<00:01, 224.13batch/s][A
+Training batches on cuda:0:  48%|████▊     | 335/695 [00:01<00:01, 228.26batch/s][A
+Training batches on cuda:0:  52%|█████▏    | 359/695 [00:01<00:01, 231.09batch/s][A
+Training batches on cuda:0:  55%|█████▌    | 383/695 [00:01<00:01, 233.11batch/s][A
+Training batches on cuda:0:  59%|█████▊    | 407/695 [00:01<00:01, 234.34batch/s][A
+Training batches on cuda:0:  62%|██████▏   | 431/695 [00:01<00:01, 235.40batch/s][A
+Training batches on cuda:0:  65%|██████▌   | 455/695 [00:01<00:01, 235.93batch/s][A
+Training batches on cuda:0:  69%|██████▉   | 479/695 [00:02<00:00, 236.56batch/s][A
+Training batches on cuda:0:  72%|███████▏  | 503/695 [00:02<00:00, 226.61batch/s][A
+Training batches on cuda:0:  76%|███████▌  | 527/695 [00:02<00:00, 229.73batch/s][A
+Training batches on cuda:0:  79%|███████▉  | 551/695 [00:02<00:00, 223.10batch/s][A
+Training batches on cuda:0:  83%|████████▎ | 575/695 [00:02<00:00, 227.38batch/s][A
+Training batches on cuda:0:  86%|████████▌ | 599/695 [00:02<00:00, 230.56batch/s][A
+Training batches on cuda:0:  90%|████████▉ | 623/695 [00:02<00:00, 207.32batch/s][A
+Training batches on cuda:0:  93%|█████████▎| 646/695 [00:02<00:00, 173.53batch/s][A
+Training batches on cuda:0:  96%|█████████▋| 669/695 [00:03<00:00, 186.60batch/s][A
+Training batches on cuda:0: 100%|█████████▉| 693/695 [00:03<00:00, 199.43batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   0%|          | 5/1000 [00:19<52:32,  3.17s/epoch, loss=287, prev_loss=347]Training epochs on cuda:0:   1%|          | 6/1000 [00:19<52:57,  3.20s/epoch, loss=287, prev_loss=347]
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   3%|▎         | 22/695 [00:00<00:03, 219.26batch/s][A
+Training batches on cuda:0:   7%|▋         | 46/695 [00:00<00:02, 228.71batch/s][A
+Training batches on cuda:0:  10%|█         | 70/695 [00:00<00:02, 231.68batch/s][A
+Training batches on cuda:0:  14%|█▎        | 94/695 [00:00<00:02, 232.86batch/s][A
+Training batches on cuda:0:  17%|█▋        | 118/695 [00:00<00:02, 233.44batch/s][A
+Training batches on cuda:0:  20%|██        | 142/695 [00:00<00:02, 230.35batch/s][A
+Training batches on cuda:0:  24%|██▍       | 166/695 [00:00<00:02, 231.62batch/s][A
+Training batches on cuda:0:  27%|██▋       | 190/695 [00:00<00:02, 232.99batch/s][A
+Training batches on cuda:0:  31%|███       | 214/695 [00:00<00:02, 233.94batch/s][A
+Training batches on cuda:0:  34%|███▍      | 238/695 [00:01<00:01, 234.65batch/s][A
+Training batches on cuda:0:  38%|███▊      | 262/695 [00:01<00:01, 234.86batch/s][A
+Training batches on cuda:0:  41%|████      | 286/695 [00:01<00:01, 235.15batch/s][A
+Training batches on cuda:0:  45%|████▍     | 310/695 [00:01<00:01, 235.39batch/s][A
+Training batches on cuda:0:  48%|████▊     | 334/695 [00:01<00:01, 235.56batch/s][A
+Training batches on cuda:0:  52%|█████▏    | 358/695 [00:01<00:01, 235.12batch/s][A
+Training batches on cuda:0:  55%|█████▍    | 382/695 [00:01<00:01, 235.21batch/s][A
+Training batches on cuda:0:  58%|█████▊    | 406/695 [00:01<00:01, 235.28batch/s][A
+Training batches on cuda:0:  62%|██████▏   | 430/695 [00:01<00:01, 226.08batch/s][A
+Training batches on cuda:0:  65%|██████▌   | 454/695 [00:01<00:01, 228.31batch/s][A
+Training batches on cuda:0:  69%|██████▉   | 478/695 [00:02<00:00, 230.05batch/s][A
+Training batches on cuda:0:  72%|███████▏  | 502/695 [00:02<00:00, 231.11batch/s][A
+Training batches on cuda:0:  76%|███████▌  | 526/695 [00:02<00:00, 231.88batch/s][A
+Training batches on cuda:0:  79%|███████▉  | 550/695 [00:02<00:00, 223.65batch/s][A
+Training batches on cuda:0:  82%|████████▏ | 573/695 [00:02<00:00, 223.31batch/s][A
+Training batches on cuda:0:  86%|████████▌ | 596/695 [00:02<00:00, 223.86batch/s][A
+Training batches on cuda:0:  89%|████████▉ | 619/695 [00:02<00:00, 224.18batch/s][A
+Training batches on cuda:0:  92%|█████████▏| 642/695 [00:02<00:00, 224.45batch/s][A
+Training batches on cuda:0:  96%|█████████▌| 665/695 [00:02<00:00, 224.73batch/s][A
+Training batches on cuda:0:  99%|█████████▉| 688/695 [00:02<00:00, 224.73batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   1%|          | 6/1000 [00:22<52:57,  3.20s/epoch, loss=243, prev_loss=287]Training epochs on cuda:0:   1%|          | 7/1000 [00:22<52:46,  3.19s/epoch, loss=243, prev_loss=287]
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   3%|▎         | 21/695 [00:00<00:03, 207.00batch/s][A
+Training batches on cuda:0:   6%|▋         | 44/695 [00:00<00:03, 216.63batch/s][A
+Training batches on cuda:0:  10%|▉         | 67/695 [00:00<00:02, 219.90batch/s][A
+Training batches on cuda:0:  13%|█▎        | 90/695 [00:00<00:02, 221.39batch/s][A
+Training batches on cuda:0:  16%|█▋        | 113/695 [00:00<00:02, 222.24batch/s][A
+Training batches on cuda:0:  20%|█▉        | 136/695 [00:00<00:02, 221.82batch/s][A
+Training batches on cuda:0:  23%|██▎       | 159/695 [00:00<00:02, 222.58batch/s][A
+Training batches on cuda:0:  26%|██▌       | 182/695 [00:00<00:02, 223.18batch/s][A
+Training batches on cuda:0:  29%|██▉       | 205/695 [00:00<00:02, 223.53batch/s][A
+Training batches on cuda:0:  33%|███▎      | 228/695 [00:01<00:02, 223.62batch/s][A
+Training batches on cuda:0:  36%|███▌      | 251/695 [00:01<00:01, 223.77batch/s][A
+Training batches on cuda:0:  39%|███▉      | 274/695 [00:01<00:01, 223.95batch/s][A
+Training batches on cuda:0:  43%|████▎     | 297/695 [00:01<00:01, 224.03batch/s][A
+Training batches on cuda:0:  46%|████▌     | 320/695 [00:01<00:01, 224.08batch/s][A
+Training batches on cuda:0:  49%|████▉     | 343/695 [00:01<00:01, 224.28batch/s][A
+Training batches on cuda:0:  53%|█████▎    | 366/695 [00:01<00:01, 224.24batch/s][A
+Training batches on cuda:0:  56%|█████▌    | 389/695 [00:01<00:01, 224.27batch/s][A
+Training batches on cuda:0:  59%|█████▉    | 412/695 [00:01<00:01, 224.24batch/s][A
+Training batches on cuda:0:  63%|██████▎   | 435/695 [00:01<00:01, 224.27batch/s][A
+Training batches on cuda:0:  66%|██████▌   | 458/695 [00:02<00:01, 224.35batch/s][A
+Training batches on cuda:0:  69%|██████▉   | 481/695 [00:02<00:00, 224.36batch/s][A
+Training batches on cuda:0:  73%|███████▎  | 504/695 [00:02<00:00, 224.51batch/s][A
+Training batches on cuda:0:  76%|███████▌  | 527/695 [00:02<00:00, 224.63batch/s][A
+Training batches on cuda:0:  79%|███████▉  | 550/695 [00:02<00:00, 224.55batch/s][A
+Training batches on cuda:0:  82%|████████▏ | 573/695 [00:02<00:00, 224.53batch/s][A
+Training batches on cuda:0:  86%|████████▌ | 596/695 [00:02<00:00, 224.63batch/s][A
+Training batches on cuda:0:  89%|████████▉ | 619/695 [00:02<00:00, 224.53batch/s][A
+Training batches on cuda:0:  92%|█████████▏| 642/695 [00:02<00:00, 224.50batch/s][A
+Training batches on cuda:0:  96%|█████████▌| 665/695 [00:02<00:00, 224.53batch/s][A
+Training batches on cuda:0:  99%|█████████▉| 688/695 [00:03<00:00, 224.43batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   1%|          | 7/1000 [00:25<52:46,  3.19s/epoch, loss=205, prev_loss=243]Training epochs on cuda:0:   1%|          | 8/1000 [00:25<53:03,  3.21s/epoch, loss=205, prev_loss=243]
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   3%|▎         | 21/695 [00:00<00:03, 206.60batch/s][A
+Training batches on cuda:0:   6%|▋         | 44/695 [00:00<00:03, 216.41batch/s][A
+Training batches on cuda:0:  10%|▉         | 67/695 [00:00<00:02, 219.64batch/s][A
+Training batches on cuda:0:  13%|█▎        | 90/695 [00:00<00:02, 221.16batch/s][A
+Training batches on cuda:0:  16%|█▋        | 113/695 [00:00<00:02, 221.98batch/s][A
+Training batches on cuda:0:  20%|█▉        | 136/695 [00:00<00:02, 221.36batch/s][A
+Training batches on cuda:0:  23%|██▎       | 159/695 [00:00<00:02, 222.08batch/s][A
+Training batches on cuda:0:  26%|██▌       | 182/695 [00:00<00:02, 222.71batch/s][A
+Training batches on cuda:0:  29%|██▉       | 205/695 [00:00<00:02, 223.21batch/s][A
+Training batches on cuda:0:  33%|███▎      | 228/695 [00:01<00:02, 223.57batch/s][A
+Training batches on cuda:0:  36%|███▌      | 251/695 [00:01<00:01, 223.73batch/s][A
+Training batches on cuda:0:  39%|███▉      | 274/695 [00:01<00:01, 223.85batch/s][A
+Training batches on cuda:0:  43%|████▎     | 297/695 [00:01<00:01, 223.92batch/s][A
+Training batches on cuda:0:  46%|████▌     | 320/695 [00:01<00:01, 224.13batch/s][A
+Training batches on cuda:0:  49%|████▉     | 343/695 [00:01<00:01, 224.13batch/s][A
+Training batches on cuda:0:  53%|█████▎    | 366/695 [00:01<00:01, 224.24batch/s][A
+Training batches on cuda:0:  56%|█████▌    | 389/695 [00:01<00:01, 223.98batch/s][A
+Training batches on cuda:0:  59%|█████▉    | 412/695 [00:01<00:01, 224.15batch/s][A
+Training batches on cuda:0:  63%|██████▎   | 435/695 [00:01<00:01, 224.09batch/s][A
+Training batches on cuda:0:  66%|██████▌   | 458/695 [00:02<00:01, 224.29batch/s][A
+Training batches on cuda:0:  69%|██████▉   | 481/695 [00:02<00:00, 224.32batch/s][A
+Training batches on cuda:0:  73%|███████▎  | 504/695 [00:02<00:00, 224.38batch/s][A
+Training batches on cuda:0:  76%|███████▌  | 527/695 [00:02<00:00, 224.38batch/s][A
+Training batches on cuda:0:  79%|███████▉  | 550/695 [00:02<00:00, 224.47batch/s][A
+Training batches on cuda:0:  82%|████████▏ | 573/695 [00:02<00:00, 224.47batch/s][A
+Training batches on cuda:0:  86%|████████▌ | 596/695 [00:02<00:00, 224.45batch/s][A
+Training batches on cuda:0:  89%|████████▉ | 619/695 [00:02<00:00, 224.34batch/s][A
+Training batches on cuda:0:  92%|█████████▏| 642/695 [00:02<00:00, 224.33batch/s][A
+Training batches on cuda:0:  96%|█████████▌| 665/695 [00:02<00:00, 224.30batch/s][A
+Training batches on cuda:0:  99%|█████████▉| 688/695 [00:03<00:00, 224.31batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   1%|          | 8/1000 [00:29<53:03,  3.21s/epoch, loss=177, prev_loss=205]Training epochs on cuda:0:   1%|          | 9/1000 [00:29<53:15,  3.22s/epoch, loss=177, prev_loss=205]
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   3%|▎         | 21/695 [00:00<00:03, 207.01batch/s][A
+Training batches on cuda:0:   6%|▋         | 44/695 [00:00<00:03, 216.79batch/s][A
+Training batches on cuda:0:  10%|▉         | 67/695 [00:00<00:02, 219.63batch/s][A
+Training batches on cuda:0:  13%|█▎        | 90/695 [00:00<00:02, 221.11batch/s][A
+Training batches on cuda:0:  16%|█▋        | 113/695 [00:00<00:02, 221.91batch/s][A
+Training batches on cuda:0:  20%|█▉        | 136/695 [00:00<00:02, 221.40batch/s][A
+Training batches on cuda:0:  23%|██▎       | 159/695 [00:00<00:02, 222.00batch/s][A
+Training batches on cuda:0:  26%|██▌       | 182/695 [00:00<00:02, 222.27batch/s][A
+Training batches on cuda:0:  29%|██▉       | 205/695 [00:00<00:02, 222.64batch/s][A
+Training batches on cuda:0:  33%|███▎      | 228/695 [00:01<00:02, 223.00batch/s][A
+Training batches on cuda:0:  36%|███▌      | 251/695 [00:01<00:01, 223.27batch/s][A
+Training batches on cuda:0:  39%|███▉      | 274/695 [00:01<00:01, 223.48batch/s][A
+Training batches on cuda:0:  43%|████▎     | 297/695 [00:01<00:01, 223.77batch/s][A
+Training batches on cuda:0:  46%|████▌     | 320/695 [00:01<00:01, 223.80batch/s][A
+Training batches on cuda:0:  49%|████▉     | 343/695 [00:01<00:01, 223.91batch/s][A
+Training batches on cuda:0:  53%|█████▎    | 366/695 [00:01<00:01, 224.03batch/s][A
+Training batches on cuda:0:  56%|█████▌    | 389/695 [00:01<00:01, 224.15batch/s][A
+Training batches on cuda:0:  59%|█████▉    | 412/695 [00:01<00:01, 224.22batch/s][A
+Training batches on cuda:0:  63%|██████▎   | 435/695 [00:01<00:01, 224.28batch/s][A
+Training batches on cuda:0:  66%|██████▌   | 458/695 [00:02<00:01, 224.24batch/s][A
+Training batches on cuda:0:  69%|██████▉   | 481/695 [00:02<00:00, 224.17batch/s][A
+Training batches on cuda:0:  73%|███████▎  | 504/695 [00:02<00:00, 224.23batch/s][A
+Training batches on cuda:0:  76%|███████▌  | 527/695 [00:02<00:00, 224.34batch/s][A
+Training batches on cuda:0:  79%|███████▉  | 550/695 [00:02<00:00, 224.36batch/s][A
+Training batches on cuda:0:  82%|████████▏ | 573/695 [00:02<00:00, 224.42batch/s][A
+Training batches on cuda:0:  86%|████████▌ | 596/695 [00:02<00:00, 224.47batch/s][A
+Training batches on cuda:0:  89%|████████▉ | 619/695 [00:02<00:00, 224.51batch/s][A
+Training batches on cuda:0:  92%|█████████▏| 642/695 [00:02<00:00, 224.38batch/s][A
+Training batches on cuda:0:  96%|█████████▌| 665/695 [00:02<00:00, 224.19batch/s][A
+Training batches on cuda:0:  99%|█████████▉| 688/695 [00:03<00:00, 224.19batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   1%|          | 9/1000 [00:32<53:15,  3.22s/epoch, loss=158, prev_loss=177]INFO:pykeen.evaluation.evaluator:Evaluation took 4.59s seconds
+INFO:pykeen.stoppers.early_stopping:New best result at epoch 10: 0.476628895184136. Saved model weights to /home/guests/apesare/.data/pykeen/checkpoints/best-model-weights-eee30e23-6250-451e-8e7f-e0385affabb9.pt
+INFO:pykeen.training.training_loop:=> Saved checkpoint after having finished epoch 10.
+Training epochs on cuda:0:   1%|          | 10/1000 [00:37<1:18:03,  4.73s/epoch, loss=158, prev_loss=177]
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   3%|▎         | 20/695 [00:00<00:03, 198.74batch/s][A
+Training batches on cuda:0:   6%|▌         | 43/695 [00:00<00:03, 212.60batch/s][A
+Training batches on cuda:0:   9%|▉         | 66/695 [00:00<00:02, 217.10batch/s][A
+Training batches on cuda:0:  13%|█▎        | 89/695 [00:00<00:02, 219.28batch/s][A
+Training batches on cuda:0:  16%|█▌        | 112/695 [00:00<00:02, 219.87batch/s][A
+Training batches on cuda:0:  20%|█▉        | 136/695 [00:00<00:02, 224.40batch/s][A
+Training batches on cuda:0:  23%|██▎       | 160/695 [00:00<00:02, 227.45batch/s][A
+Training batches on cuda:0:  26%|██▋       | 184/695 [00:00<00:02, 228.86batch/s][A
+Training batches on cuda:0:  30%|██▉       | 207/695 [00:00<00:02, 225.82batch/s][A
+Training batches on cuda:0:  33%|███▎      | 230/695 [00:01<00:02, 224.99batch/s][A
+Training batches on cuda:0:  36%|███▋      | 253/695 [00:01<00:01, 224.55batch/s][A
+Training batches on cuda:0:  40%|███▉      | 276/695 [00:01<00:01, 224.27batch/s][A
+Training batches on cuda:0:  43%|████▎     | 299/695 [00:01<00:01, 223.76batch/s][A
+Training batches on cuda:0:  46%|████▋     | 322/695 [00:01<00:01, 223.54batch/s][A
+Training batches on cuda:0:  50%|████▉     | 345/695 [00:01<00:01, 223.34batch/s][A
+Training batches on cuda:0:  53%|█████▎    | 368/695 [00:01<00:01, 223.30batch/s][A
+Training batches on cuda:0:  56%|█████▋    | 391/695 [00:01<00:01, 222.73batch/s][A
+Training batches on cuda:0:  60%|█████▉    | 414/695 [00:01<00:01, 223.01batch/s][A
+Training batches on cuda:0:  63%|██████▎   | 437/695 [00:01<00:01, 223.10batch/s][A
+Training batches on cuda:0:  66%|██████▌   | 460/695 [00:02<00:01, 223.18batch/s][A
+Training batches on cuda:0:  69%|██████▉   | 483/695 [00:02<00:00, 223.12batch/s][A
+Training batches on cuda:0:  73%|███████▎  | 506/695 [00:02<00:00, 223.08batch/s][A
+Training batches on cuda:0:  76%|███████▌  | 529/695 [00:02<00:00, 223.14batch/s][A
+Training batches on cuda:0:  79%|███████▉  | 552/695 [00:02<00:00, 223.23batch/s][A
+Training batches on cuda:0:  83%|████████▎ | 575/695 [00:02<00:00, 223.37batch/s][A
+Training batches on cuda:0:  86%|████████▌ | 598/695 [00:02<00:00, 223.44batch/s][A
+Training batches on cuda:0:  89%|████████▉ | 621/695 [00:02<00:00, 223.36batch/s][A
+Training batches on cuda:0:  93%|█████████▎| 644/695 [00:02<00:00, 223.37batch/s][A
+Training batches on cuda:0:  96%|█████████▌| 667/695 [00:02<00:00, 223.40batch/s][A
+Training batches on cuda:0:  99%|█████████▉| 690/695 [00:03<00:00, 223.19batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   1%|          | 10/1000 [00:40<1:18:03,  4.73s/epoch, loss=146, prev_loss=158]Training epochs on cuda:0:   1%|          | 11/1000 [00:40<1:10:35,  4.28s/epoch, loss=146, prev_loss=158]
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   3%|▎         | 21/695 [00:00<00:03, 205.70batch/s][A
+Training batches on cuda:0:   6%|▌         | 43/695 [00:00<00:03, 212.69batch/s][A
+Training batches on cuda:0:  10%|▉         | 67/695 [00:00<00:02, 222.29batch/s][A
+Training batches on cuda:0:  13%|█▎        | 91/695 [00:00<00:02, 226.86batch/s][A
+Training batches on cuda:0:  16%|█▋        | 114/695 [00:00<00:02, 218.38batch/s][A
+Training batches on cuda:0:  20%|█▉        | 137/695 [00:00<00:02, 222.13batch/s][A
+Training batches on cuda:0:  23%|██▎       | 160/695 [00:00<00:02, 216.15batch/s][A
+Training batches on cuda:0:  26%|██▋       | 184/695 [00:00<00:02, 221.52batch/s][A
+Training batches on cuda:0:  30%|██▉       | 208/695 [00:00<00:02, 225.23batch/s][A
+Training batches on cuda:0:  33%|███▎      | 231/695 [00:01<00:02, 218.78batch/s][A
+Training batches on cuda:0:  37%|███▋      | 255/695 [00:01<00:01, 223.14batch/s][A
+Training batches on cuda:0:  40%|████      | 279/695 [00:01<00:01, 226.16batch/s][A
+Training batches on cuda:0:  44%|████▎     | 303/695 [00:01<00:01, 228.33batch/s][A
+Training batches on cuda:0:  47%|████▋     | 327/695 [00:01<00:01, 229.88batch/s][A
+Training batches on cuda:0:  51%|█████     | 351/695 [00:01<00:01, 230.88batch/s][A
+Training batches on cuda:0:  54%|█████▍    | 375/695 [00:01<00:01, 231.74batch/s][A
+Training batches on cuda:0:  57%|█████▋    | 399/695 [00:01<00:01, 232.34batch/s][A
+Training batches on cuda:0:  61%|██████    | 423/695 [00:01<00:01, 232.62batch/s][A
+Training batches on cuda:0:  64%|██████▍   | 447/695 [00:01<00:01, 232.97batch/s][A
+Training batches on cuda:0:  68%|██████▊   | 471/695 [00:02<00:00, 233.24batch/s][A
+Training batches on cuda:0:  71%|███████   | 495/695 [00:02<00:00, 233.22batch/s][A
+Training batches on cuda:0:  75%|███████▍  | 519/695 [00:02<00:00, 233.48batch/s][A
+Training batches on cuda:0:  78%|███████▊  | 543/695 [00:02<00:00, 233.46batch/s][A
+Training batches on cuda:0:  82%|████████▏ | 567/695 [00:02<00:00, 233.45batch/s][A
+Training batches on cuda:0:  85%|████████▌ | 591/695 [00:02<00:00, 233.54batch/s][A
+Training batches on cuda:0:  88%|████████▊ | 615/695 [00:02<00:00, 233.61batch/s][A
+Training batches on cuda:0:  92%|█████████▏| 639/695 [00:02<00:00, 226.22batch/s][A
+Training batches on cuda:0:  95%|█████████▌| 662/695 [00:02<00:00, 225.55batch/s][A
+Training batches on cuda:0:  99%|█████████▊| 685/695 [00:03<00:00, 225.23batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   1%|          | 11/1000 [00:43<1:10:35,  4.28s/epoch, loss=137, prev_loss=146]Training epochs on cuda:0:   1%|          | 12/1000 [00:43<1:05:05,  3.95s/epoch, loss=137, prev_loss=146]
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   3%|▎         | 21/695 [00:00<00:03, 207.35batch/s][A
+Training batches on cuda:0:   6%|▋         | 44/695 [00:00<00:02, 217.04batch/s][A
+Training batches on cuda:0:   9%|▉         | 66/695 [00:00<00:03, 209.58batch/s][A
+Training batches on cuda:0:  13%|█▎        | 90/695 [00:00<00:02, 218.82batch/s][A
+Training batches on cuda:0:  16%|█▋        | 114/695 [00:00<00:02, 224.05batch/s][A
+Training batches on cuda:0:  20%|█▉        | 138/695 [00:00<00:02, 226.21batch/s][A
+Training batches on cuda:0:  23%|██▎       | 162/695 [00:00<00:02, 228.45batch/s][A
+Training batches on cuda:0:  27%|██▋       | 186/695 [00:00<00:02, 229.84batch/s][A
+Training batches on cuda:0:  30%|███       | 210/695 [00:00<00:02, 230.89batch/s][A
+Training batches on cuda:0:  34%|███▎      | 234/695 [00:01<00:01, 231.65batch/s][A
+Training batches on cuda:0:  37%|███▋      | 258/695 [00:01<00:01, 232.27batch/s][A
+Training batches on cuda:0:  41%|████      | 282/695 [00:01<00:01, 232.71batch/s][A
+Training batches on cuda:0:  44%|████▍     | 306/695 [00:01<00:01, 232.72batch/s][A
+Training batches on cuda:0:  47%|████▋     | 330/695 [00:01<00:01, 232.82batch/s][A
+Training batches on cuda:0:  51%|█████     | 354/695 [00:01<00:01, 233.13batch/s][A
+Training batches on cuda:0:  54%|█████▍    | 378/695 [00:01<00:01, 233.36batch/s][A
+Training batches on cuda:0:  58%|█████▊    | 402/695 [00:01<00:01, 233.37batch/s][A
+Training batches on cuda:0:  61%|██████▏   | 426/695 [00:01<00:01, 223.97batch/s][A
+Training batches on cuda:0:  65%|██████▍   | 450/695 [00:01<00:01, 226.45batch/s][A
+Training batches on cuda:0:  68%|██████▊   | 474/695 [00:02<00:00, 228.31batch/s][A
+Training batches on cuda:0:  72%|███████▏  | 498/695 [00:02<00:00, 229.73batch/s][A
+Training batches on cuda:0:  75%|███████▌  | 522/695 [00:02<00:00, 230.76batch/s][A
+Training batches on cuda:0:  79%|███████▊  | 546/695 [00:02<00:00, 231.16batch/s][A
+Training batches on cuda:0:  82%|████████▏ | 570/695 [00:02<00:00, 231.76batch/s][A
+Training batches on cuda:0:  85%|████████▌ | 594/695 [00:02<00:00, 232.17batch/s][A
+Training batches on cuda:0:  89%|████████▉ | 618/695 [00:02<00:00, 232.53batch/s][A
+Training batches on cuda:0:  92%|█████████▏| 642/695 [00:02<00:00, 232.77batch/s][A
+Training batches on cuda:0:  96%|█████████▌| 666/695 [00:02<00:00, 198.67batch/s][A
+Training batches on cuda:0:  99%|█████████▉| 690/695 [00:03<00:00, 208.05batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   1%|          | 12/1000 [00:46<1:05:05,  3.95s/epoch, loss=130, prev_loss=137]Training epochs on cuda:0:   1%|▏         | 13/1000 [00:46<1:01:15,  3.72s/epoch, loss=130, prev_loss=137]
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   1%|▏         | 10/695 [00:00<00:07, 91.94batch/s][A
+Training batches on cuda:0:   4%|▎         | 25/695 [00:00<00:05, 123.50batch/s][A
+Training batches on cuda:0:   7%|▋         | 48/695 [00:00<00:03, 168.96batch/s][A
+Training batches on cuda:0:  10%|█         | 71/695 [00:00<00:03, 190.68batch/s][A
+Training batches on cuda:0:  14%|█▎        | 94/695 [00:00<00:02, 202.84batch/s][A
+Training batches on cuda:0:  17%|█▋        | 117/695 [00:00<00:02, 209.97batch/s][A
+Training batches on cuda:0:  20%|██        | 140/695 [00:00<00:02, 213.68batch/s][A
+Training batches on cuda:0:  23%|██▎       | 163/695 [00:00<00:02, 217.06batch/s][A
+Training batches on cuda:0:  27%|██▋       | 186/695 [00:00<00:02, 219.33batch/s][A
+Training batches on cuda:0:  30%|███       | 209/695 [00:01<00:02, 221.01batch/s][A
+Training batches on cuda:0:  33%|███▎      | 232/695 [00:01<00:02, 222.07batch/s][A
+Training batches on cuda:0:  37%|███▋      | 255/695 [00:01<00:01, 222.77batch/s][A
+Training batches on cuda:0:  40%|████      | 278/695 [00:01<00:01, 223.21batch/s][A
+Training batches on cuda:0:  43%|████▎     | 301/695 [00:01<00:01, 223.48batch/s][A
+Training batches on cuda:0:  47%|████▋     | 324/695 [00:01<00:01, 223.76batch/s][A
+Training batches on cuda:0:  50%|████▉     | 347/695 [00:01<00:01, 224.00batch/s][A
+Training batches on cuda:0:  53%|█████▎    | 370/695 [00:01<00:01, 224.02batch/s][A
+Training batches on cuda:0:  57%|█████▋    | 393/695 [00:01<00:01, 223.97batch/s][A
+Training batches on cuda:0:  60%|█████▉    | 416/695 [00:01<00:01, 224.16batch/s][A
+Training batches on cuda:0:  63%|██████▎   | 439/695 [00:02<00:01, 224.30batch/s][A
+Training batches on cuda:0:  66%|██████▋   | 462/695 [00:02<00:01, 224.15batch/s][A
+Training batches on cuda:0:  70%|██████▉   | 485/695 [00:02<00:00, 224.22batch/s][A
+Training batches on cuda:0:  73%|███████▎  | 508/695 [00:02<00:00, 224.32batch/s][A
+Training batches on cuda:0:  76%|███████▋  | 531/695 [00:02<00:00, 224.37batch/s][A
+Training batches on cuda:0:  80%|███████▉  | 554/695 [00:02<00:00, 224.39batch/s][A
+Training batches on cuda:0:  83%|████████▎ | 577/695 [00:02<00:00, 224.45batch/s][A
+Training batches on cuda:0:  86%|████████▋ | 600/695 [00:02<00:00, 224.38batch/s][A
+Training batches on cuda:0:  90%|████████▉ | 623/695 [00:02<00:00, 224.35batch/s][A
+Training batches on cuda:0:  93%|█████████▎| 646/695 [00:02<00:00, 224.35batch/s][A
+Training batches on cuda:0:  96%|█████████▋| 669/695 [00:03<00:00, 224.28batch/s][A
+Training batches on cuda:0: 100%|█████████▉| 692/695 [00:03<00:00, 224.27batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   1%|▏         | 13/1000 [00:50<1:01:15,  3.72s/epoch, loss=125, prev_loss=130]Training epochs on cuda:0:   1%|▏         | 14/1000 [00:50<59:18,  3.61s/epoch, loss=125, prev_loss=130]  
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   3%|▎         | 21/695 [00:00<00:03, 206.59batch/s][A
+Training batches on cuda:0:   6%|▋         | 44/695 [00:00<00:03, 215.78batch/s][A
+Training batches on cuda:0:  10%|▉         | 67/695 [00:00<00:02, 219.10batch/s][A
+Training batches on cuda:0:  13%|█▎        | 90/695 [00:00<00:02, 220.77batch/s][A
+Training batches on cuda:0:  16%|█▋        | 113/695 [00:00<00:02, 221.87batch/s][A
+Training batches on cuda:0:  20%|█▉        | 136/695 [00:00<00:02, 221.37batch/s][A
+Training batches on cuda:0:  23%|██▎       | 159/695 [00:00<00:02, 222.07batch/s][A
+Training batches on cuda:0:  26%|██▌       | 182/695 [00:00<00:02, 222.07batch/s][A
+Training batches on cuda:0:  29%|██▉       | 205/695 [00:00<00:02, 222.73batch/s][A
+Training batches on cuda:0:  33%|███▎      | 228/695 [00:01<00:02, 223.25batch/s][A
+Training batches on cuda:0:  36%|███▌      | 251/695 [00:01<00:01, 223.46batch/s][A
+Training batches on cuda:0:  39%|███▉      | 274/695 [00:01<00:01, 223.55batch/s][A
+Training batches on cuda:0:  43%|████▎     | 297/695 [00:01<00:01, 223.71batch/s][A
+Training batches on cuda:0:  46%|████▌     | 320/695 [00:01<00:01, 223.67batch/s][A
+Training batches on cuda:0:  49%|████▉     | 343/695 [00:01<00:01, 223.80batch/s][A
+Training batches on cuda:0:  53%|█████▎    | 366/695 [00:01<00:01, 223.79batch/s][A
+Training batches on cuda:0:  56%|█████▌    | 389/695 [00:01<00:01, 223.88batch/s][A
+Training batches on cuda:0:  59%|█████▉    | 412/695 [00:01<00:01, 224.05batch/s][A
+Training batches on cuda:0:  63%|██████▎   | 435/695 [00:01<00:01, 224.14batch/s][A
+Training batches on cuda:0:  66%|██████▌   | 458/695 [00:02<00:01, 223.95batch/s][A
+Training batches on cuda:0:  69%|██████▉   | 481/695 [00:02<00:00, 224.10batch/s][A
+Training batches on cuda:0:  73%|███████▎  | 504/695 [00:02<00:00, 223.97batch/s][A
+Training batches on cuda:0:  76%|███████▌  | 527/695 [00:02<00:00, 223.98batch/s][A
+Training batches on cuda:0:  79%|███████▉  | 550/695 [00:02<00:00, 223.97batch/s][A
+Training batches on cuda:0:  82%|████████▏ | 573/695 [00:02<00:00, 223.93batch/s][A
+Training batches on cuda:0:  86%|████████▌ | 596/695 [00:02<00:00, 224.03batch/s][A
+Training batches on cuda:0:  89%|████████▉ | 619/695 [00:02<00:00, 224.19batch/s][A
+Training batches on cuda:0:  92%|█████████▏| 642/695 [00:02<00:00, 224.27batch/s][A
+Training batches on cuda:0:  96%|█████████▌| 665/695 [00:02<00:00, 224.17batch/s][A
+Training batches on cuda:0:  99%|█████████▉| 688/695 [00:03<00:00, 224.11batch/s][A
+                                                                                 [ATraining epochs on cuda:0:   1%|▏         | 14/1000 [00:53<59:18,  3.61s/epoch, loss=122, prev_loss=125]Training epochs on cuda:0:   2%|▏         | 15/1000 [00:53<57:31,  3.50s/epoch, loss=122, prev_loss=125]
+Training batches on cuda:0:   0%|          | 0/695 [00:00<?, ?batch/s][A
+Training batches on cuda:0:   2%|▏         | 17/695 [00:00<00:03, 169.95batch/s][A
+Training batches on cuda:0:   6%|▌         | 41/695 [00:00<00:03, 206.86batch/s][A
+Training batches on cuda:0:   9%|▉         | 65/695 [00:00<00:02, 218.32batch/s][A
+Training batches on cuda:0:  13%|█▎        | 89/695 [00:00<00:02, 223.62batch/s][A
+Training batches on cuda:0:  16%|█▋        | 113/695 [00:00<00:02, 226.29batch/s][Aslurmstepd-coppernode-gpu01: error: *** JOB 3682532 ON coppernode-gpu01 CANCELLED AT 2025-06-09T14:05:45 ***
+slurmstepd-coppernode-gpu01: error: container_p_join: open failed for /var/slurm_tmpfs//coppernode-gpu01/3682532/.ns: No such file or directory
+slurmstepd-coppernode-gpu01: error: container_g_join(3682532): No such file or directory
